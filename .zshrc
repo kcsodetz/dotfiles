@@ -1,10 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/kcsodetz/.oh-my-zsh
+export ZSH=/home/kcsodetz/.oh-my-zsh
 
 eval `dircolors /home/kcsodetz/.dir_colors/dircolors`
+
+export TERM="xterm-256color"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -23,7 +25,7 @@ ZSH_THEME="af-magic"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+ HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -38,7 +40,7 @@ ZSH_THEME="af-magic"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -94,12 +96,23 @@ export LANG=en_US.UTF-8
 # Example aliases
 alias zshconfig='cd;vim .zshrc'
 alias ohmyzsh="mate ~/.oh-my-zsh"
-alias h='cd;cd ../../mnt/c/Users/Ken\ Sodetz'
-alias c='cd;cd ../../mnt/c/Users/Ken\ Sodetz/Code'
+alias h='cd /mnt/c/Users/Ken\ Sodetz'
+alias c='cd /mnt/c/Users/Ken\ Sodetz/Code'
+alias onedrive='cd /mnt/c/Users/Ken\ Sodetz/OneDrive'
 alias cls='clear'
 alias e='exit'
 alias sshlab='ssh sodetz@data.cs.purdue.edu'
+alias sshpod='ssh sodetz@pod4-3.cs.purdue.edu'
 alias sshpi='ssh pi@10.0.1.10'
+alias sshpihome='ssh pi@10.0.1.25'
 alias chrome='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'
 alias word='/mnt/c/Program\ Files\ \(x86\)/Microsoft\ Office/root/Office16/WINWORD.EXE'
 alias pdf='/mnt/c/Program\ Files/SumatraPDF/SumatraPDF.exe'
+alias spotify='/mnt/c/Users/Ken\ Sodetz/AppData/Roaming/Spotify/Spotify.exe'
+alias np='/mnt/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe'
+alias restart='/mnt/c/Windows/System32/shutdown.exe /r'
+alias shutdown='/mnt/c/Windows/System32/shutdown.exe /s'
+alias here='/mnt/c/Windows/explorer.exe'
+alias school='cd /mnt/c/Users/Ken\ Sodetz/OneDrive/Documents/School/Sophomore\ Year\ Classes'
+alias dl='cd /mnt/c/Users/Ken\ Sodetz/Downloads'
+alias mnt='cd /mnt'
